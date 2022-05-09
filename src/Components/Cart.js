@@ -65,8 +65,6 @@ function Cart() {
       </div>
       <div className="text-center mt-5">
       <div className="fw-bold">Total Amount : &#36;{cartPrice}</div><br></br>
-        <button className="btn btn-danger">Remove All Item</button>
-        <br></br>
         <button
           className="btn mt-2"
           style={{ backgroundColor: "yellow", color: "black" }}
