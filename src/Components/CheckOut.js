@@ -15,7 +15,7 @@ function CheckOut() {
 
   let getPostal = async () => {
     let res = await axios.get(
-      `http://e-commerce-api-recruitment.herokuapp.com/warehouse/distance?postal_code=` +
+      'http://e-commerce-api-recruitment.herokuapp.com/warehouse/distance?postal_code='+
         postalCode
     );
     setDistance(parseInt(res.data.distance_in_kilometers));
